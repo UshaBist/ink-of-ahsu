@@ -1,0 +1,161 @@
+/* =========================
+   General Body Styles
+========================= */
+body {
+  background: #fff8f5; /* soft pastel pink */
+  color: #4a3f3f;      /* warm charcoal for text */
+  font-family: 'Lora', serif;
+  line-height: 1.8;
+  margin: 0;
+  padding: 0 2rem;
+}
+
+/* =========================
+   Header Styles
+========================= */
+header {
+  text-align: center;
+  padding: 2rem 0 1rem 0;
+  border-bottom: 1px solid #f0dede; /* soft pink border */
+}
+
+header h1 {
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-size: 2.8rem;
+  color: #d799b6; /* pastel rose */
+  margin-bottom: 0.5rem;
+}
+
+header .tagline {
+  font-style: italic;
+  font-family: 'Lora', serif;
+  color: #b78fa2; /* muted lavender-pink */
+  font-size: 1.1rem;
+}
+
+/* =========================
+   Intro Photo
+========================= */
+.intro-photo {
+  display: block;
+  max-width: 300px;
+  width: 100%;
+  margin: 1.5rem auto;
+  border-radius: 50%;
+  border: 3px solid #f4d4d1; /* pastel peach border */
+}
+
+/* =========================
+   Buttons & Links
+========================= */
+button, .nav-link {
+  background: #f4d4d1; /* pastel peach */
+  color: #4a3f3f;
+  border: none;
+  padding: 0.6rem 1.2rem;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin: 1rem 0.5rem;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+button:hover, .nav-link:hover {
+  background: #e9c4bf; /* slightly darker pastel on hover */
+  color: #4a3f3f;
+}
+
+/* =========================
+   Main Content
+========================= */
+main {
+  max-width: 700px;
+  margin: 2rem auto;
+  text-align: center;
+}
+
+main h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #d799b6; /* pastel rose for headings */
+}
+
+main p {
+  margin-bottom: 1.5rem;
+  text-align: justify;
+}
+
+/* =========================
+   Poem Content
+========================= */
+.poem-content {
+  font-family: 'Lora', serif;
+  font-size: 1.2rem;
+  line-height: 1.8;
+  color: #4a3f3f;
+}
+
+/* Nepali Poems */
+.nepali-poem {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+/* Poem Date */
+.date {
+  font-size: 0.9rem;
+  color: #b78fa2; /* muted lavender-pink */
+  margin-bottom: 1rem;
+}
+
+/* =========================
+   Poem Navigation
+========================= */
+.nav-links {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+/* =========================
+   Poem List Page
+========================= */
+.poem-list {
+  list-style-type: none;
+  padding-left: 0;
+  text-align: left;
+  max-width: 700px;
+  margin: 2rem auto;
+}
+
+.poem-list li {
+  margin-bottom: 1rem;
+}
+
+.poem-list a {
+  text-decoration: none;
+  color: #d799b6; /* pastel rose */
+  font-family: 'Playfair Display', serif;
+  font-style: normal;
+  font-size: 1.2rem;
+  transition: color 0.3s;
+}
+
+.poem-list a:hover {
+  color: #b78fa2; /* muted lavender-pink hover */
+}
+
+/* =========================
+   Footer
+========================= */
+footer {
+  text-align: center;
+  padding: 2rem 0;
+  border-top: 1px solid #f0dede;
+  color: #888;
+  font-size: 0.9rem;
+}
